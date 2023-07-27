@@ -19,9 +19,4 @@ public class SpringBootTutorialApplication {
         return String.format("Hello %s!", name);
     }
 
-    @GetMapping("")
-    public String sayFirstPage() {
-        return String.format("This is first page");
-    }
-
 }
